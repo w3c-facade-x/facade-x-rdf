@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <h1 id="title"><code>Fa&ccedil;ade-X</code> concepts and meta model specification</h1>
+  <h2 id="subtitle">A minimalist model for representing heterogeneous data formats in a unified way.</h2>
+
+  <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
+  <script class="remove">
+    // All config options at https://respec.org/docs/
+    var respecConfig = {
+      specStatus: "ED",
+      editors: [
+        { name: "Luigi Asprino", company: "Università Telematica San Raffaele - Roma", companyURL: "https://www.uniroma5.it/", mailto: "luigi.asprino@uniroma5.it", orcid: "0000-0003-1907-0677", w3cid: 130089 },
+        { name: "Enrico Daga", company: "The Open University", companyURL: "https://www.open.ac.uk/", mailto: "enrico.daga@open.ac.uk", orcid: "0000-0002-3184-5407" },],
+      github: "w3c-facade-x/facadex-metamodel-specification",
+      shortName: "facade-x",
+      xref: "web-platform",
+      group: "cg/facade-x",
+      isPreview: true,
+      license: "w3c-software-doc",
+      specStatus: "unofficial",
+      latestVersion: "https://w3c-facade-x.github.io/facadex-metamodel-specification/",
+
+    };
+  </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']],
+      },
+      startup: { typeset: false },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'code'] },
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+  <script>
+    window.addEventListener('load', function () {
+      if (!window.MathJax || !window.MathJax.startup) return;
+      window.MathJax.startup.promise.then(function () {
+        document.querySelectorAll('pre').forEach(function (pre) {
+          var text = pre.textContent.trim();
+          if (!text) return;
+          var math = text.startsWith('\\[') && text.endsWith('\\]')
+            ? text
+            : '\\[' + text + '\\]';
+          var block = document.createElement('div');
+          block.textContent = math;
+          pre.replaceWith(block);
+        });
+        window.MathJax.typesetPromise();
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <section id="abstract">
+    <p>This document specifies the Fa&ccedil;ade-X RDF vocabulary.</p>
+  </section>
+
+  <section id="sotd">
+    <p>This document is currently in active development.</p>
+  </section>
+
+  <section class="informative">
+    <h2>Introduction</h2>
+	<p></p>
+    <p>
+		<!-- Fa&ccedil;ade-X is the (meta-)model resulting from the abstraction of all the basic data structures used to
+      represent source data formats, combined into a unified model. 
+	  RDF languages can implement it to provide users direct access to external, heterogeneus data formats.
+      The Figure below provide an intuive overview of Fa&ccedil;ade-X.
+	  The related RDF vocabulary is [under preparation]. -->
+    </p>
+
+
+    <!-- <figure id="figure">
+      <img src="model.png" alt="Facade-X model" />
+      <figcaption>A diagram of the Fa&ccedil;ade-X model</figcaption>
+    </figure> -->
+
+  </section>
+
+  <section>
+    <h2>Issues</h2>
+    <p class="issue" data-number="1">
+      <!-- Issue can automatically be populated from GitHub -->
+    </p>
+  </section>
+  </section>
+
+
+
+  <section id="Classes">
+    <h2>Classes</h2>
+
+
+  </section>
+
+  <section id="Properties">
+    <h2>Properties</h2>
+
+  </section>
+  
+
+  <section id="Individuals">
+    <h2>Individuals</h2>
+
+  </section>
+  
+
+  <section id="Name Graphs">
+    <h2>Name Graphs</h2>
+
+  </section>
+
+
+
+</body>
+
+</html>
